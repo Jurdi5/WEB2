@@ -1,0 +1,28 @@
+{
+  "name": "cv-online-jorge",
+  "version": "1.0.0",
+  "description": "CV en línea con empaquetador personalizado",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "node bundler/bundler.js",
+    "dev": "node bundler/bundler.js --dev",
+    "start": "node server/server.js",
+    "clean": "rimraf dist"
+  },
+  "keywords": ["cv", "resume", "web", "bundler"],
+  "author": "Jorge Eduardo Urdiales Gonzalez",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "sass": "^1.62.0",
+    "chokidar": "^3.5.0",
+    "rimraf": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "nodemailer": "^6.9.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "express-rate-limit": "^6.7.0"
+  }
+}

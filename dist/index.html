@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Jorge Eduardo Urdiales Gonzalez</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="loading" class="loading">
+        <div class="loading-spinner"></div>
+        <p>Cargando CV...</p>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span id="nav-name">Jorge Urdiales</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Inicio</a>
+                <a href="#about" class="nav-link">Acerca</a>
+                <a href="#experience" class="nav-link">Experiencia</a>
+                <a href="#projects" class="nav-link">Proyectos</a>
+                <a href="#contact" class="nav-link">Contacto</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 id="hero-name" class="hero-name">Cargando...</h1>
+                    <p id="hero-title" class="hero-title">Cargando...</p>
+                    <p id="hero-summary" class="hero-summary">Cargando...</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Contáctame</a>
+                        <a href="#" id="download-cv" class="btn btn-secondary">
+                            <i class="fas fa-download"></i> Descargar CV
+                        </a>
+                    </div>
+                    <div class="social-links" id="social-links">
+                        <!-- Se llenará dinámicamente -->
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img id="profile-image" src="" alt="Perfil" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">Acerca de Mí</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Educación</h3>
+                        <div id="education-list" class="education-list">
+                            <!-- Se llenará dinámicamente -->
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <h3>Habilidades Técnicas</h3>
+                        <div id="skills-container" class="skills-container">
+                            <!-- Se llenará dinámicamente -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2 class="section-title">Experiencia</h2>
+                <div id="experience-list" class="timeline">
+                    <!-- Se llenará dinámicamente -->
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Proyectos</h2>
+                <div id="projects-grid" class="projects-grid">
+                    <!-- Se llenará dinámicamente -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contacto</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>¡Hablemos!</h3>
+                        <p>Estoy siempre interesado en nuevas oportunidades y proyectos emocionantes.</p>
+                        <div class="contact-details" id="contact-details">
+                            <!-- Se llenará dinámicamente -->
+                        </div>
+                    </div>
+                    <form id="contact-form" class="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name">Nombre *</label>
+                            <input type="text" id="name" name="name" required>
+                            <div class="error-message" id="name-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                            <div class="error-message" id="email-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Asunto *</label>
+                            <input type="text" id="subject" name="subject" required>
+                            <div class="error-message" id="subject-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <div class="error-message" id="message-error"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="submit-btn">
+                            <span class="btn-text">Enviar Mensaje</span>
+                            <span class="btn-loading" style="display: none;">
+                                <i class="fas fa-spinner fa-spin"></i> Enviando...
+                            </span>
+                        </button>
+                        <div id="form-message" class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p id="footer-text">© 2025 Jorge Eduardo Urdiales Gonzalez. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

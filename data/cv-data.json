@@ -1,0 +1,122 @@
+{
+  "personalInfo": {
+    "name": "Jorge Eduardo Urdiales Gonzalez",
+    "title": "Ingeniero en Desarrollo de Software",
+    "phone": "+523318190484",
+    "email": "jorge.urdialeseduardo@gmail.com",
+    "linkedin": "linkedin.com/in/jorge",
+    "github": "github.com/jurdi5",
+    "location": "Guadalajara, Jalisco",
+    "profileImage": "assets/images/profile.jpg",
+    "summary": "Estudiante de Ingeniería en Desarrollo de Software con experiencia en desarrollo web full-stack, algoritmos de machine learning y gestión empresarial. Apasionado por crear soluciones tecnológicas innovadoras."
+  },
+  "education": [
+    {
+      "institution": "Instituto Tecnológico y de Estudios Superiores de Occidente (ITESO)",
+      "degree": "Ingeniería en Desarrollo de Software",
+      "location": "Guadalajara, Jalisco",
+      "startDate": "Ago 2023",
+      "endDate": "Agosto 2027 (aprox)",
+      "status": "En curso"
+    },
+    {
+      "institution": "Universidad Panamericana",
+      "degree": "Licenciatura en Administración y Mercadotecnia",
+      "location": "Guadalajara, Jalisco", 
+      "startDate": "Ago 2022",
+      "endDate": "May 2023",
+      "status": "Incompleta"
+    }
+  ],
+  "experience": [
+    {
+      "position": "Programador WEB",
+      "company": "Pulpo Negro",
+      "location": "Guadalajara, Jalisco",
+      "startDate": "Mayo 2025",
+      "endDate": "Actualmente",
+      "current": true,
+      "description": "Diseño, desarrollo y mantenimiento de diversas páginas web, trabajando en todas las etapas del ciclo de vida como desarrollador full stack."
+    },
+    {
+      "position": "Asistente de Director General",
+      "company": "Arbolandia/Oso negro",
+      "location": "Guadalajara, Jalisco",
+      "startDate": "Oct 2024",
+      "endDate": "Dic 2024",
+      "current": false,
+      "description": "Me encargué de administrar y coordinar ventas de ambas empresas apoyando al director general."
+    },
+    {
+      "position": "Entrenador de Basquetbol",
+      "company": "Club deportivo Fuerza Regia",
+      "location": "Monterrey, Nuevo León",
+      "startDate": "Jul 2024",
+      "endDate": "Ago 2024",
+      "current": false,
+      "description": "Entrenador de basquetbol de niños y jóvenes de entre 8 años y 16 años."
+    },
+    {
+      "position": "Colaborador Merchandising",
+      "company": "Kidzania Guadalajara",
+      "location": "Guadalajara, Jalisco",
+      "startDate": "Jun 2023",
+      "endDate": "Jul 2023",
+      "current": false,
+      "description": "Laboré en el parque Kidzania Gdl en el área de ventas y regalías, vendiendo productos y cobrando en caja y en ocasiones siendo el encargado de la caja."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Menú ITESO",
+      "technologies": ["HTML", "CSS", "Bootstrap", "JavaScript", "Node.js", "Express.js", "MongoDB", "SQL"],
+      "startDate": "Feb 2025",
+      "endDate": "May 2025",
+      "description": "Desarrollé una aplicación web que permite a estudiantes universitarios consultar menús y realizar pedidos en línea a distintos restaurantes dentro del campus, optimizando el proceso de compra y eliminando filas.",
+      "highlights": [
+        "Implementé componentes reutilizables como tarjetas de productos y menús desplegables",
+        "Interacción dinámica del usuario con JavaScript"
+      ],
+      "github": "https://github.com/jurdi5/menu-iteso"
+    },
+    {
+      "name": "Java Clustering",
+      "technologies": ["Java"],
+      "startDate": "Oct 2024",
+      "endDate": "Dic 2024",
+      "description": "Implementé tres algoritmos de agrupamiento no supervisado (K-means, Clustering jerárquico y DBSCAN) en Java para análisis exploratorio de datos.",
+      "highlights": [
+        "Se enfocó en modularidad algorítmica",
+        "Evaluación comparativa entre métodos y representación de resultados"
+      ],
+      "github": "https://github.com/jurdi5/java-clustering"
+    },
+    {
+      "name": "Compresor de Huffman",
+      "technologies": ["C"],
+      "startDate": "Nov 2024",
+      "endDate": "Dic 2024",
+      "description": "Desarrollé un compresor y descompresor de archivos basado en el algoritmo de codificación de Huffman, implementado desde cero en lenguaje C.",
+      "highlights": [
+        "Construcción de árboles binarios y manipulación de bits a bajo nivel",
+        "Manejo de archivos binarios y estructuras dinámicas de datos"
+      ],
+      "github": "https://github.com/jurdi5/huffman-compressor"
+    }
+  ],
+  "skills": {
+    "languages": ["Java", "Python", "C", "JavaScript", "HTML/CSS", "MongoDB", "TypeScript"],
+    "frameworks": ["Node.js", "Express.js", "Bootstrap", "React"],
+    "databases": ["Microsoft SQL Server (T-SQL)", "MongoDB", "MySQL"],
+    "tools": ["Git", "VS Code", "Docker", "Postman"],
+    "spoken": ["English", "Spanish (Native)"]
+  },
+  "contact": {
+    "emailRecipient": "jorge.urdialeseduardo@gmail.com",
+    "emailService": {
+      "host": "smtp.gmail.com",
+      "port": 587,
+      "secure": false
+    }
+  }
+}
